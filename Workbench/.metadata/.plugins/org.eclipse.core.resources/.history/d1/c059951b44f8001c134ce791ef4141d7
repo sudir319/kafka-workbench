@@ -1,0 +1,33 @@
+package com.sudheer.kafka.orderconsumer;
+
+import java.util.Collections;
+import java.util.Properties;
+
+import org.apache.kafka.clients.consumer.KafkaConsumer;
+import org.apache.kafka.clients.producer.KafkaProducer;
+import org.apache.kafka.clients.producer.ProducerRecord;
+
+public class OrderConsumer {
+	public static void main(String[] args) {
+		Properties props = new Properties();
+		props.setProperty("bootstrap.servers", "localhost:9092");
+		props.setProperty("key.serializer", "org.apache.kafka.common.serialization.StringDeserializer");
+		props.setProperty("value.serializer", "org.apache.kafka.common.serialization.IntegerDeserializer");
+		props.setProperty("group.id", "OrderGroup");
+		
+		KafkaConsumer<String, Integer> consumer = new KafkaConsumer<String, Integer>(props);
+		consumer.subscribe(Collections.singletonList("OrderTopic"));
+		
+		ProducerRecord<String, Integer> record = new ProducerRecord<String, Integer>("OrderTopic", "Mac Book Pro", 10);
+		
+		try {
+			consumer.pol
+		}
+		catch(Exception e) {
+			e.printStackTrace();
+		}
+		finally {
+			consumer.close();
+		}
+	}
+}

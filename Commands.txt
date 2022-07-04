@@ -1,0 +1,17 @@
+Start ZooKeeper : zookeeper-server-start.bat ../../config/zookeeper.properties
+
+Start Kafka : kafka-server-start.bat ../../config/server.properties
+
+Create Kafka Topic : kafka-topics --create --replication-factor 1 --partitions 1 --topic first-topic --bootstrap-server localhost:9092
+
+List Kafka Topic : kafka-topics.bat --bootstrap-server localhost:9092 --list
+
+Describe Kafka Topic : kafka-topics --describe --topic first-topic --bootstrap-server localhost:9092
+
+To open the Consumer Console : kafka-console-consumer --bootstrap-server localhost:9092 --topic first-topic
+
+To open the Producer Console : kafka-console-producer --broker-list localhost:9092 --topic first-topic
+
+Delete Kafka Topic : kafka-topics --delete --topic first-topic --bootstrap-server localhost:9092
+	Need to have delete.topic.enable=true in server.properties
+	Its not working in windows as of Jun-2022 

@@ -1,0 +1,5 @@
+package com.sudheer.kafka.orderproducer.customserializers;
+
+public class Order {
+
+}

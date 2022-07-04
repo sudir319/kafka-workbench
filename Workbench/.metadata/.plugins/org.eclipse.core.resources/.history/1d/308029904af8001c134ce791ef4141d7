@@ -1,0 +1,7 @@
+package com.sudheer.kafka.ordercusumer.customserializers;
+
+import org.apache.kafka.common.serialization.Deserializer;
+
+public class OrderDeserializer implements Deserializer<Order> {
+
+}

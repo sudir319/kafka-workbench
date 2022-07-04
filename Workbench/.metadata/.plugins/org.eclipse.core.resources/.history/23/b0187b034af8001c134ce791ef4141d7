@@ -1,0 +1,12 @@
+package com.sudheer.kafka.orderproducer.customserializers;
+
+import org.apache.kafka.common.serialization.Serializer;
+
+public class OrderSerializer implements Serializer<Order> {
+
+	public byte[] serialize(String topic, Order order) {
+		byte[] response = null;
+		return response;
+	}
+
+}

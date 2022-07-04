@@ -1,0 +1,7 @@
+package com.sudheer.kafka.orderproducer.customserializers;
+
+import org.apache.kafka.common.serialization.Serializer;
+
+public class OrderSerializer implements Serializer<T> {
+
+}

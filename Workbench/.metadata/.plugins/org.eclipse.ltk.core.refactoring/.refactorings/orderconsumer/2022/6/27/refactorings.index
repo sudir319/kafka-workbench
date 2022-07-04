@@ -1,0 +1,9 @@
+1656572873893	Rename package 'com.sudheer.kafka.orderproducer'
+1656572890255	Rename package 'com.sudheer.kafka.orderproducer'
+1656572964275	Delete element
+1656572980577	Rename type 'OrderProducer'
+1656573027562	Infer generic type arguments
+1656575924503	Rename package 'com.sudheer.kafka.orderproducer.customserializers'
+1656575931820	Copy compilation unit
+1656575936641	Delete element
+1656575943177	Rename type 'OrderSerializer'

@@ -1,0 +1,9 @@
+package com.sudheer.kafka.orderproducer.customserializers;
+
+public class Order {
+	private String customerName;
+	private String product;
+	private int quantity;
+	
+	
+}

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="org.apache.kafka.clients.producer.KafkaProducer"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.clients.producer.ProducerRecord"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.clients.consumer.KafkaConsumer"/>
+    <fullyQualifiedTypeName name="java.util.Collections"/>
+    <fullyQualifiedTypeName name="java.time.Duration"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.clients.consumer.ConsumerRecords"/>
+    <fullyQualifiedTypeName name="com.sudheer.kafka.orderproducer.customserializers.Order"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.ObjectMapper"/>
+    <fullyQualifiedTypeName name="com.sudheer.kafka.ordercusumer.customserializers.OrderDeserializer"/>
+    <fullyQualifiedTypeName name="com.fasterxml.jackson.databind.deser.std.StringDeserializer"/>
+    <fullyQualifiedTypeName name="org.apache.kafka.common.serialization.StringDeserializer"/>
+</qualifiedTypeNameHistroy>
